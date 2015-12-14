@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html prefix="dc: http://purl.org/dc/terms/ schema: http://schema.org/ prov: http://www.w3.org/ns/prov# foaf: http://xmlns.com/foaf/0.1/ owl: http://www.w3.org/2002/07/owl#">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+ <link rel="stylesheet" href="resources/primer.css" media="screen" />    <link rel="stylesheet" href="resources/rec.css" media="screen" />    <link rel="stylesheet" href="resources/extra.css" media="screen" />    <link rel="stylesheet" href="resources/owl.css" media="screen" />   <script src="resources/jquery.js"></script> 
+    <script> 
+function loadHash() {
+	var hash = location.hash;
+	if($(hash).offset()!=null){
+		$('html, body').animate({scrollTop: $(hash).offset().top}, 0);
+	}
+}    $(function(){
+      $("#abstract").load("sections/abstract.html"); 
+      $("#introduction").load("sections/introduction.html"); 
+      $("#crossref").load("sections/crossref.html", null, loadHash); 
+      $("#references").load("sections/references.html"); 
+    });
+    </script> 
+  </head> 
+
+<body resource="https://w3id.org/ifc/IFC2X3_Final" typeOf="owl:Ontology schema:TechArticle">
+<span resource="" typeOf="foaf:Document schema:WebPage">
+<span property="dc:created schema:dateCreated" content="25 September 2015"></span>
+<span property="dc:creator prov:wasAttributedTo schema:creator" resource="http://users.ugent.be/~pipauwel/"></span>
+<span property="dc:creator prov:wasAttributedTo schema:creator" content="Walter Terkaj"></span>
+<span property="dc:contributor prov:wasAttributedTo schema:contributor" resource="http://purl.org/net/dgarijo"></span>
+</span>
+
+
+<div class="head">
+<h1 property="dc:title schema:name">ifcOWL ontology (IFC2X3_Final)</h1>
+
+<dl><dt>IRI:</dt><dd>https://w3id.org/ifc/IFC2X3_Final</dd></dl>
+
+<dl><dt>Date:</dt><dd>December 11, 2015</dd>
+<dt>This version:</dt><dd>1.2</dd>
+<dt>Previous version:</dt><dd>September 25, 2015: <a href="http://users.ugent.be/~pipauwel/ontologies/ifc/20150925/IFC2X3_Final/index.html">http://users.ugent.be/~pipauwel/ontologies/ifc/20150925/IFC2X3_Final/index.html</a></dd>
+<dt>Latest version:</dt><dd>December 11, 2015: <a href="http://users.ugent.be/~pipauwel/ontologies/ifc_W3ID/20151211/IFC2X3_Final/index.html">http://users.ugent.be/~pipauwel/ontologies/ifc_W3ID/20151211/IFC2X3_Final/index.html</a></dd>
+</dl>
+
+<dl><dt>Authors:</dt>
+<dd>Pieter Pauwels (<a href="mailto:pipauwel.pauwels@ugent.be">pipauwel.pauwels@ugent.be</a>)</dd>
+<dd>Walter Terkaj  (<a href="mailto:walter.terkaj@itia.cnr.it">walter.terkaj@itia.cnr.it</a>)</dd>
+</dl>
+
+<dl><dt>Contributors:</dt>
+<dd>Jakob Beetz (<a href="mailto:j.beetz@tue.nl">j.beetz@tue.nl</a>)</dd>
+<dd>María Poveda Villalón (<a href="mailto:mpoveda@fi.upm.es">mpoveda@fi.upm.es</a>)</dd>
+<dd>Aleksandra Sojic (<a href="mailto:aleksandra.sojic@itia.cnr.it">aleksandra.sojic@itia.cnr.it</a>)</dd>
+</dl>
+
+<dl><dt>Ontology source:</dt>
+<dd><a href="http://users.ugent.be/~pipauwel/ontologies/ifc_W3ID/20151211/IFC2X3_Final.ttl">.TTL</a> <a href="http://users.ugent.be/~pipauwel/ontologies/ifc_W3ID/20151211/IFC2X3_Final.owl">.OWL</a></dd></dl> 
+
+<dl><dt>Imported Ontologies:</dt>
+<dd><a property="owl:imports schema:mentions" resource="https://w3id.org/list" href="https://w3id.org/list">https://w3id.org/list</a></dd>
+<dd><a property="owl:imports schema:mentions" resource="https://w3id.org/express" href="https://w3id.org/express">https://w3id.org/express</a></dd>
+</dl>
+
+<dl><dt>License:</dt>
+<dd>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</a> license.</dd></dl> 
+<span property="dc:license" resource="http://creativecommons.org/licenses/by/3.0/"></span>
+
+<hr/>
+</div>
+
+
+
+
+<div id="abstract"></div>
+<div id="toc"><h2>Table of Contents</h2>
+<ul>
+<li><a href="#introduction">1. Introduction</a></li>
+<ul>
+	<li><a href="#namespacedeclarations">1.1 Namespace declarations</a></li>
+	<li><a href="#overview">1.2 ifcOWL ontology (IFC2X3_Final) overview</a></li>
+</ul>
+<li><a href="#crossref">2. Cross reference for ifcOWL ontology (IFC2X3_Final) classes, properties and data properties</a></li>
+<ul>
+	<li><a href="#classes">2.1 Classes</a></li>
+	<li><a href="#objectproperties">2.2 Object Properties</a></li>
+	<li><a href="#annotationproperties">2.3 Annotation properties</a></li>
+	<li><a href="#namedindividuals">2.4 Named Individuals</a></li>
+</ul>
+<li><a href="#references">3. References</a></li>
+<li><a href="#acknowledgements">4. Acknowledgements</a></li>
+</ul>
+</div>
+
+<div id="introduction"></div>
+<div id="crossref"></div>
+<div id="references"></div>
+<div id="acknowledgements">
+<h2>4. Acknowledgements <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<p>This work is a product of the many contributions that have been made as part of the <a href="https://www.w3.org/community/lbd/">W3C Community Group on Linked Building Data</a> and of the <a href="http://www.buildingsmart.org/?p=4911">BuildingSMART Linked Data Working Group</a>. Members of these groups at time of publication are:</p>
+
+<b>W3C LBD Community Group</b>
+<ul>
+<li><b>Pieter Pauwels - Ghent University (chair)</b></li>
+<li><b>Kris McGlinn - TCDublin (chair)</b></li>
+<li>Alex Bradley - Cardiff University</li>
+<li>Ana Roxin - University of Burgundy</li>
+<li>Christophe Nicolle - University of Burgundy</li>
+<li>Francisco Regateiro - Universidade de Lisboa</li>
+<li>Goncal Costa - La Salle University</li>
+<li>Hendro Wicaksono - Karlsruhe Institute of Technology</li>
+<li>Jakob Beetz - TUEindhoven</li>
+<li>Jyrki Oraskari - Aalto University</li>
+<li>Maria Poveda-Villalon - Universidad Politécnica de Madrid</li>
+<li>Masaki Minami - Accelia, Inc.</li>
+<li>Matthias Weise - AEC3</li>
+<li>Mehrdad Niknam - Marquette University</li>
+<li>Michael Petychakis - National Technical University of Athens</li>
+<li>Nam Vu Hoang - Aalto University</li>
+<li>Nikolaos Kaklanis - Centre for Research and Technology Hellas</li>
+<li>Odilo Schoch - Swiss Federal Institute of Technology Zurich</li>
+<li>Raul Garcia Castro - Universidad Politécnica de Madrid</li>
+<li>Seppo Törmä - Aalto University</li>
+<li>Srinivasan Vembuli - Ogilvy & Mather</li>
+<li>Stefan Dietze - L3S Research Center</li>
+<li>Walter Terkaj - ITIA-CNR</li>
+<li>Yongwook Jeong - Sejong University</li>
+</ul>
+
+<b>BuildingSMART LD Working Group</b>
+<ul>
+<li><b>Jakob Beetz - TUEindhoven (chair)</b></li>
+<li><b>Pieter Pauwels - Ghent University (chair)</b></li>
+<li>Kris McGlinn - TCDublin</li>
+<li>Maria Poveda-Villalon - UPMadrid</li>
+<li>Walter Terkaj - ITIA-CNR</li>
+<li>Matthias Weise - AEC3</li>
+<li>Thomas Liebich - AEC3</li>
+<li>Seppo Törmä - Aalto University</li>
+<li>Michel Böhms - TNO </li>
+<li>Léon van Berlo - TNO</li>
+<li>Pim van den Helm - TNO</li>
+<li>Ana Roxin - University of Burgundy</li>
+<li>Christophe Nicolle - University of Burgundy</li>
+<li>Nam Vu Hoang - Aalto University</li>
+<li>Goncal Costa - La Salle University</li>
+<li>Reijo Hänninen - BSI Excom</li>
+<li>Odilo Schoch - ETH Zürich</li>
+<li>Benedict Wallbank - Viewpoint 4 projects</li>
+<li>John Adams - Viewpoint 4 projects</li>
+<li>Rasso Steinmann - iabi & Nemetschek</li>
+<li>Karam Kim - Kwangwoon University</li>
+<li>Bonsang Koo - Seoultech University</li>
+<li>Bob Wakelam - AEC3</li>
+<li>Bernard Ferries - French bS chapter</li>
+<li>Martin Simpson - Arup</li>
+<li>Calin Boje - Cardiff University</li>
+<li>Haijiang Li - Cardiff University</li>
+<li>Alex Bradley - Cardiff University</li>
+<li>David Lewis - TCDublin</li>
+<li>Willie Lawton - Tyndall National Institute</li>
+<li>Joe Tah - Oxford Brookes University</li>
+<li>Tamer El-Diraby - University of Toronto</li>
+<li>John Dickinson - Advanced BIM Solutions</li>
+<li>Chaohai Ding - University of Southampton</li>
+<li>Yongwook Jeong - Sejong University</li>
+</ul>
+
+<p>In addition, this work owes to the efforts and strong technical contributions of the participants to the 1st, 2nd and 3rd International Workshop on Linked Data in Architecture and Construction (<a href="http://multimedialab.elis.ugent.be/ldac2012/overview.html">LDAC2012</a>, <a href="http://linkedbuildingdata.net/events/ldac2014/">LDAC2014</a>, <a href="http://ldac-2015.bwk.tue.nl">LDAC2015</a>).</p>
+<p>The authors would like to thank <a href="http://palindrom.es/phd/whoami/">Silvio Peroni</a> for developing <a href="http://www.essepuntato.it/lode">LODE</a>, a Live OWL Documentation Environment, which is used for representing the Cross Referencing Section of this document and <a href="http://delicias.dia.fi.upm.es/members/dgarijo/">Daniel Garijo</a> for developing the script used to create the document template.</p>
+</div>
+</body> 
+</html>
