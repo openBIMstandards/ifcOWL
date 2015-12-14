@@ -25,15 +25,15 @@ files: [https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final.rdf]
 
 ##The HTML documentation files
 
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1/index.html](IFC4_ADD1)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4/index.html](IFC4)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1/index.html](IFC2X3_TC1)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final/index.html](IFC2X3_Final)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1/index.html](IFC4_ADD1)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4/index.html](IFC4)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1/index.html](IFC2X3_TC1)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final/index.html](IFC2X3_Final)
 
 ##Set up URL redirects
 If a site is intended to serve HTML and RDF content at the same web location, proper URL redirects need to be set up in the server using .htaccess files. In this regard, we follow the guidelines that are published at [http://www.w3.org/TR/swbp-vocab-pub/#recipe3](http://www.w3.org/TR/swbp-vocab-pub/#recipe3) (extended configuration for hash namespaces). The following .htaccess files are needed for the above four ontologies and the HTML documentation.
 
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC4_ADD1/.htaccess](.htaccess for IFC4_ADD1)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC4/.htaccess](.htaccess for IFC4)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC2X3_TC1/.htaccess](.htaccess for IFC2X3_TC1)
-*[https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC2X3_Final/.htaccess](.htaccess for IFC2X3_Final)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC4_ADD1/.htaccess](.htaccess for IFC4_ADD1)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC4/.htaccess](.htaccess for IFC4)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC2X3_TC1/.htaccess](.htaccess for IFC2X3_TC1)
+* [https://github.com/openBIMstandards/ifcOWL/blob/master/rewriteenginefiles/IFC2X3_Final/.htaccess](.htaccess for IFC2X3_Final)
