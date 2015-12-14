@@ -3,6 +3,8 @@ Four OWL ontologies are maintained in this location for the Industry Foundation 
 
 More information about ifcOWL can be found in: Pieter Pauwels and Walter Terkaj (2016). EXPRESS to OWL for construction industry: towards a recommendable and usable ifcOWL ontology. Automation in Construction (in press). DOI:[http://dx.doi.org/10.1016/j.autcon.2015.12.003](10.1016/j.autcon.2015.12.003).
 
+Contact: [mailto:pipauwel.pauwels@ugent.be](pipauwel.pauwels@ugent.be)
+
 ##IFC4_ADD1
 namespace URI: [https://w3id.org/ifc/IFC4_ADD1](https://w3id.org/ifc/IFC4_ADD1)
 
@@ -15,5 +17,5 @@ namespace URI: [https://w3id.org/ifc/IFC2X3_TC1](https://w3id.org/ifc/IFC2X3_TC1
 ##IFC2X3_Final
 namespace URI: [https://w3id.org/ifc/IFC2X3_Final](https://w3id.org/ifc/IFC2X3_Final)
 
-Contact: [mailto:pipauwel.pauwels@ugent.be](pipauwel.pauwels@ugent.be)
+
 
