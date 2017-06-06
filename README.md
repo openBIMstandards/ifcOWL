@@ -5,29 +5,29 @@ More information about ifcOWL can be found in: Pieter Pauwels and Walter Terkaj 
 
 Contact: [pipauwel.pauwels@ugent.be](mailto:pipauwel.pauwels@ugent.be)
 
-##File overview
+# File overview
 
-###IFC4_ADD2
+## IFC4_ADD2
 * namespace URI: [http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2](http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD2#)
 * ontology files: [RDF](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD2.rdf) [OWL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD2.owl) [TTL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD2.ttl) (these three are identical serialisations)
 * HTML documentation: [index.html](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD2/index.html)
 
-###IFC4_ADD1
+## IFC4_ADD1
 * namespace URI: [http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1](http://www.buildingsmart-tech.org/ifcOWL/IFC4_ADD1#)
 * ontology files: [RDF](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1.rdf) [OWL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1.owl) [TTL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1.ttl) (these three are identical serialisations)
 * HTML documentation: [index.html](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4_ADD1/index.html)
 
-###IFC4
+## IFC4
 * namespace URI: [http://www.buildingsmart-tech.org/ifcOWL/IFC4](http://www.buildingsmart-tech.org/ifcOWL/IFC4#)
 * ontology files: [RDF](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4.rdf) [OWL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4.owl) [TTL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4.ttl) (these three are identical serialisations)
 * HTML documentation: [index.html](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC4/index.html)
 
-###IFC2X3_TC1
+## IFC2X3_TC1
 * namespace URI: [http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1](http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_TC1#)
 * ontology files: [RDF](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1.rdf) [OWL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1.owl) [TTL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1.ttl) (these three are identical serialisations)
 * HTML documentation: [index.html](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_TC1/index.html)
 
-###IFC2X3_Final
+## IFC2X3_Final
 * namespace URI: [http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final](http://www.buildingsmart-tech.org/ifcOWL/IFC2X3_Final#)
 * ontology files: [RDF](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final.rdf) [OWL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final.owl) [TTL](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final.ttl) (these three are identical serialisations)
 * HTML documentation: [index.html](https://github.com/openBIMstandards/ifcOWL/blob/master/IFC2X3_Final/index.html)
