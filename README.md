@@ -1,3 +1,6 @@
+<span style="color:red">Note: this project is no longer actively maintained. For more information about IFC, please contact BuildingSMART International.</span>
+
+
 # ifcOWL
 Five OWL ontologies are maintained in this location for the Industry Foundation Classes (IFC) schema in EXPRESS. For each ontology, an RDF serialisation (OWL, RDF) and a Turtle (TTL) serialisation is made available. These ontology files are identical to the ontology files maintained at [https://ifcowl.openbimstandards.org/](http://ifcowl.openbimstandards.org/) and [https://www.buildingsmart-tech.org/ifcOWL/](http://www.buildingsmart-tech.org/ifcOWL/).
 
