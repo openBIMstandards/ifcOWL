@@ -1,4 +1,4 @@
-<span style="color:red">Note: this project is no longer actively maintained. For more information about IFC, please contact BuildingSMART International.</span>
+*Note: this project is no longer actively maintained. For more information about IFC, please contact BuildingSMART International.*
 
 
 # ifcOWL
